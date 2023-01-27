@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+
+html {
+  scroll-behavior: smooth; /*Suavizar el scroll al picar en enlaces de titúlos*/
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  line-height: 1.7em;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#foto {
+  width: 60%;
+}
+
+#foto img {
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+section {
+  width: 75%;
+}
+
+article {
+  padding: 3rem 3rem 5rem 3rem;
+  min-height: 100vh;
+}
+
+nav ul li a {
+  letter-spacing: 0.05rem;
+}
+
+.subTitulo {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+h1{
+  color: #343a40;
+}
+
+h2{
+  color: #343a40;
+}
+
+h3{
+  color: #343a40;
+}
+
+.iconosRedes {
+  border-radius: 2rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.iconosRedes:hover {
+  background-color: #1072bd !important;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.lista-iconos li {
+  width: 3rem;
+  height: auto;
+  transform: scale(2);
+  padding: 2rem;
+}
+
+.bg-primary{
+  background-color: #1072bd !important
+}
