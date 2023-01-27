@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Adrián Alhama Esojo" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c3714a2851.js" crossorigin="anonymous"></script>
+  <title>CV - Adrián Alhama Esojo</title>
+</head>
+
+<body>
+  <div class="w-100 h-auto m-0 row text-muted">
+    <!--Nav para la versión Móvil-->
+    <nav class="navbar navbar-dark bg-primary fixed-top d-md-none">
+      <!--<a class="navbar-brand js-scroll-trigger" href="#top">
+              <span class="d-block h3 my-0">Adrián Alhama</span>
+        </a>
+      --> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="list-unstyled text-uppercase p-0">
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#about">Sobre Mi</a>
+          </li>
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#experience">Experiencia</a>
+          </li>
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#education">Estudios</a>
+          </li>
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#skills">Habilidades</a>
+          </li>
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#interests">Intereses</a>
+          </li>
+          <li class="py-2">
+            <a class="text-decoration-none text-light fw-bold" href="#awards">Certificaciones</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Aside con nav fijo en la izquierda. No visible en tamaño móvil-->
+    <aside class="bg-primary col-md-3 d-none d-md-block position-fixed h-100">
+      <div class="d-flex flex-column">
+        <div class="my-4 mx-auto" id="foto">
+          <img src="assets/foto.png" width="100%" height="auto" />
+        </div>
+        <nav>
+          <ul class="list-unstyled text-center text-uppercase p-0">
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#about">Sobre Mi</a>
+            </li>
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#experience">Experiencia</a>
+            </li>
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#education">Estudios</a>
+            </li>
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#skills">Skills</a>
+            </li>
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#interests">Intereses</a>
+            </li>
+            <li class="py-2">
+              <a class="text-decoration-none text-light fw-bold" href="#awards">Certificaciones</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <!--Section donde irán los apartados-->
+    <section class="col-md-9 position-absolute end-0">
+      <article id="about">
+        <h1 class="my-5 display-1 fw-bold">
+          Adrián <span class="text-primary">Alhama Esojo</span>
+        </h1>
+        <h3 class="mb-5 subTitulo fw-semibold">
+          Desarrollador Web - Córdoba - Tfno Contacto:
+          (+34)649708745 -
+          <span class="text-primary text-lowercase">adrialhama93@gmail.com</span>
+        </h3>
+        <p class="fs-5 fw-semibold">
+          Soy Técnico Superior en Animación 3D y Técnico
+          Superior en Desarrollo de Aplicaciones Web. Ambos estudios me han
+          dado la oportunidad de formarme tanto para el Diseño, modelaje e
+          impresión 3D. Como también para el desarrollo de aplicaciones Web.
+        </p>
+        <div class="mt-5 row justify-content-center justify-content-md-start align-items-center align-items-md-start">
+          <div class="iconosRedes me-4 bg-secondary d-flex align-items-center justify-content-center">
+            <a href="https://www.linkedin.com/in/adri%C3%A1n-alhama-esojo-9b40191ab/"><i class="text-light fa-brands fa-linkedin-in fa-xl"></i></a>
+          </div>
+          <div class="iconosRedes me-4 bg-secondary d-flex align-items-center justify-content-center">
+            <a href="https://github.com/adrialhama"><i class="text-light fa-brands fa-github fa-xl"></i></a>
+          </div>
+          <!-- Más iconos de redes
+          <div class="iconosRedes me-4 bg-secondary d-flex align-items-center justify-content-center">
+            <a href="#"><i class="text-light fa-brands fa-twitter fa-xl"></i></a>
+          </div>
+          <div class="iconosRedes me-4 bg-secondary d-flex align-items-center justify-content-center">
+            <a href="#"><i class="text-light fa-brands fa-facebook-f fa-xl"></i></a>
+          </div>
+          -->
+        </div>
+      </article>
+      <hr />
+      <article id="experience">
+        <h2 class="h2 fw-bold text-uppercase mb-5">Experiencia</h2>
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              Informático - Diseñador web
+            </h3>
+            <h4 class="h5 text-uppercase">
+              Ayuntamiento de Aguilar de la Frontera
+            </h4>
+            <p>
+              <span class="fst-italic fs-6">Tareas realizadas: </span><br />
+              Actualizar contenidos de la página web del Ayuntamiento.
+              Planificar, diseñar y desarrollar elementos gráficos impresos y
+              online. Controlar y fomentar la difusión de la imagen del
+              municipio. Gestionar los archivos multimedia. Reparaciones de
+              incidencias de equipos informáticos.
+            </p>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">De 02/2021 a 09/2021</p>
+          </div>
+        </div>
+
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              Diseñador y Desarrollador Web
+            </h3>
+            <h4 class="h5 text-uppercase">
+              DIEV (Diseño Evolutivo) - Lucena
+            </h4>
+            <p>
+              <span class="fst-italic fs-6">Tareas realizadas: </span><br />
+              Prácticas de empresa del Ciclo superior de Animación 3D. El
+              trabajo desempeñado en esta empresa es de Diseño y desarrollo de
+              páginas Web para empresas, mantenimiento y resolución de
+              incidencias en servidores.
+            </p>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">De 11/2016 a 03/2017</p>
+          </div>
+        </div>
+
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              Técnico informático
+            </h3>
+            <h4 class="h5 text-uppercase">BEEP INFORMÁTICA.SL - Montilla</h4>
+            <p>
+              <span class="fst-italic fs-6">Tareas realizadas: </span><br />
+              Prácticas de Empresa del Ciclo medio de Sistemas
+              Microinformáticos y Redes. Encargado de montaje y reparación de
+              equipos informáticos, tanto Hardware como Software. Reparación
+              de móviles y Tablets. Atención al cliente en mostrador, Venta de
+              artículos, gestión de pedidos Web y resolución de incidencias.
+            </p>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">De 03/2012 a 07/2012</p>
+          </div>
+        </div>
+      </article>
+      <hr />
+      <article id="education">
+        <h2 class="h2 fw-bold text-uppercase mb-5">Estudios</h2>
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              CFGS Desarrollo de Aplicaciones Web
+            </h3>
+            <h4 class="h5 text-uppercase">
+              I.E.S Marqués de Comares - Lucena
+            </h4>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">2021 - actualidad</p>
+          </div>
+        </div>
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              CFGS Animación 3D Entornos interactivos y Juegos
+            </h3>
+            <h4 class="h5 text-uppercase">
+              I.E.S Ángel de Saavedra - Córdoba
+            </h4>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">2017</p>
+          </div>
+        </div>
+        <div class="d-md-flex justify-content-between mb-5">
+          <div class="flex-md-grow-1">
+            <h3 class="h4 text-uppercase text-dark mb-3">
+              CFGM Sistemas Microinformáticos y redes
+            </h3>
+            <h4 class="h5 text-uppercase">
+              I.E.S Vicente Núñez - Aguilar de la Frontera
+            </h4>
+          </div>
+          <div class="flex-md-shrink-0">
+            <p class="text-primary">2012</p>
+          </div>
+        </div>
+      </article>
+      <hr />
+      <article id="skills">
+        <h2 class="h2 fw-bold text-uppercase mb-5">Skills</h2>
+        <div>
+          <h3 class="h4 text-uppercase text-dark mb-3">
+            Lenguajes de Programación
+          </h3>
+          <ul class="list-unstyled ps-0 row lista-iconos">
+            <li><i class="fa-brands fa-html5 fa-lg"></i></li>
+            <li><i class="fa-brands fa-css3-alt fa-lg"></i></li>
+            <li><i class="fa-brands fa-bootstrap fa-lg"></i></li>
+            <li><i class="fa-brands fa-wordpress fa-lg"></i></li>
+            <li><i class="fa-brands fa-square-js fa-lg"></i></li>
+            <li><i class="fa-brands fa-angular fa-lg"></i></li>
+            <li><i class="fa-brands fa-php fa-lg"></i></li>
+            <li><i class="fa-brands fa-laravel"></i></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="h4 text-uppercase text-dark mb-3">Workflow</h3>
+          <ol>
+            <li>Mobile-First, Responsive Design</li>
+            <li>Cross Browser Testing & Debugging</li>
+            <li>Cross Functional Teams</li>
+            <li>Agile Development & Scrum</li>
+          </ol>
+        </div>
+      </article>
+      <hr />
+      <article id="interests">
+        <h2 class="h2 fw-bold text-uppercase mb-5">Intereses</h2>
+        <p>
+          Intento aprovechar al máximo mi tiempo y estoy en constante
+          aprendizaje de las nuevas herramientas, métodos y tecnologías.
+          <br />
+          En estos momentos me ilusiona un Proyecto en el que pueda aportar
+          todos mis conocimientos adquiridos y que me permita crecer
+          profesional y personalmente.
+        </p>
+      </article>
+      <hr />
+      <article id="awards">
+        <h2 class="h2 fw-bold text-uppercase mb-5">Certificaciones</h2>
+        <div class="d-flex flex-column">
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>Certificado Cisco Networking Academy - IT Essential 2022</p>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>Certificado FAMP - Ciberseguridad para personal IT 2022</p>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>Certificado FAMP - Concienciación en Ciberseguridad 2022</p>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>
+              Certificado FAMP - Emprendimiento y Transformación digital 2022
+            </p>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>
+              Certificado FAMP - Uso eficiente de las redes sociales en las
+              administraciones públicas 2022
+            </p>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <i class="text-primary fa-solid fa-medal pe-2"></i>
+            <p>Certificado Cisco Networking Academy - Redes 2012</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+
+</html>
